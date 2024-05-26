@@ -65,13 +65,13 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/gim/programs/opensearch/data/opensearch-data1
+      device: ./data/opensearch-data1
       o: bind
   opensearch-data2:
     driver: local
     driver_opts:
       type: none
-      device: /home/gim/programs/opensearch/data/opensearch-data2
+      device: ./data/opensearch-data2
       o: bind
 
 networks:
